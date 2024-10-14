@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab1</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: "Times New Roman";
+            font-size: 13px;
+        }
+
+        #container {
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 100%;
+            border: solid 4px #a3a3a3;
+        }
+
+        .head {
+            background-color: #d8d8d8;
+            height: 70px;
+            font-size: 37px;
+            font-weight: bold;
+            border: solid 2px #a3a3a3;
+            margin: 2px;
+        }
+
+        .footer {
+            font-size: 20px;
+            background-color: #9f9f9f;
+            text-align: center;
+            border: solid 2px #6a6a6a;
+            margin: 2px;
+        }
+
+        .content {
+            height: 200px;
+            margin: 2px;
+        }
+
+        .content .navlink {
+            font-size: 17px;
+            background-color: #f3ca6e;
+            height: 196px;
+            float: left;
+            width: calc(25% - 4px);
+            border: solid 2px #707070;
+        }
+
+        .content .navlink h4 {
+            margin: 0;
+        }
+
+        .content .navlink ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+
+        .content .subcontent {
+            height: 196px;
+            background-color: #fff9f2;
+            float: right;
+            width: calc(75% - 5px);
+            border: solid 2px #757575;
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div class="head">
+        PROCESS LAYOUT EXAMLE
+    </div>
+    <div class="content">
+        <div class="navlink">
+            <h4>Main menu</h4>
+            <ul>
+                <li>Menu link1</li>
+                <li>Menu link2</li>
+                <li>Menu link3</li>
+                <li>Menu link4</li>
+            </ul>
+
+        </div>
+        <div class="subcontent">This is example layout using the tables</div>
+    </div>
+    <div class="footer">www.Example of layout using the tables.com</div>
+</div>
+</body>
+</html>

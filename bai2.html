@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab1</title>
+    <style>
+        html, body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            min-height: 500px;
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        .head{
+            height: 80px;
+            border: solid 1px gray;
+        }
+        .nav{
+            height: 60px;
+            border: solid 1px gray;
+        }
+        .content{
+            height: 300px;
+        }
+        .content .left{
+            height: calc(300px - 2px);
+            float: left;
+            width: calc(30% - 2px);
+            border: solid 1px gray;
+        }
+        .content .right{
+            height: calc(300px - 2px);
+            float: right;
+            width: calc(70% - 2px);
+            border: solid 1px gray;
+        }
+        .footer{
+            height: 80px;
+            border: solid 1px gray;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head">HEADER</div>
+        <div class="nav">NAV</div>
+        <div class="content">
+            <div class="left">LEFT</div>
+            <div class="right">RIGHT</div>
+        </div>
+        <div class="footer">FOOTER</div>
+    </div>
+</body>
+</html>
