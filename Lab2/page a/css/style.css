@@ -1,0 +1,234 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+.header_style {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.header_style .alpha {
+    float: left;
+    width: 50%;
+}
+
+.header_style .omega {
+    float: right;
+    width: 28%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header_style .logo img {
+    max-width: 200px;
+}
+
+.header_style .omega .social_button {
+    margin-left: 0;
+}
+
+.header_style .omega .social_button img {
+    width: 30px;
+    height: 30px;
+}
+
+.htext_style {
+    margin-bottom: 5px;
+    margin-right: 20px;
+    float: left;
+    color: #dddddd;
+}
+
+/* Main section styles */
+.big_padding {
+    padding: 80px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.big_padding .alpha {
+    float: left;
+    width: 50%;
+}
+
+.big_padding .omega {
+    float: right;
+    width: 45%;
+    line-height: 1.4;
+}
+
+.big_padding .omega .editContent {
+    margin-bottom: 10px;
+}
+
+.img_style {
+    max-width: 100%;
+}
+
+.blue_text {
+    color: #54ade6;
+}
+
+.big_text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.big_title {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.normal_text {
+    color: rgba(216, 216, 216, 0.39);
+}
+
+.pix_button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.pix_button:hover {
+    background-color: #2980b9;
+}
+
+.pix_button svg {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+}
+
+/* Testimonials section */
+.envato_unbounce {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.L1_style {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.L2_style {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.envato_unbounce .alpha {
+    float: left;
+    width: 47%;
+}
+
+.envato_unbounce .alpha .b_style {
+    float: left;
+}
+
+.envato_unbounce .omega {
+    float: right;
+    width: 47%;
+}
+
+.envato_unbounce .omega .b_style {
+    float: left;
+}
+
+.box_1, .box_2 {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.logo_style {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.stars_span img {
+    width: 100px;
+}
+
+/* Footer styles */
+.foot_st {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.f1_style {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgba(39, 174, 96, 0.6);
+}
+
+.f2_style {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.get_2_btn {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    border: solid 2px #45975a;
+}
+
+.get_2_btn a {
+    font-size: 13px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #45975a;
+}
+
+
+.rights_st {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.pixfort_st {
+    color: #45975a;
+    font-weight: bold;
+}
+
+.social_button {
+    display: inline-block;
+    margin: 30px 5px;
+}
